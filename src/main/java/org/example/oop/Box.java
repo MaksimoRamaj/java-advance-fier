@@ -14,6 +14,17 @@ public class Box {
         this.width = width;
     }
 
+    public double volume(){
+        return this.height * this.width * this.depth;
+    }
+
+    public double volume(double height,double width,double depth){
+        this.height = height;
+        this.width = width;
+        this.depth = depth;
+        return this.height * this.width * this.depth;
+    }
+
     public double getHeight() {
         return height;
     }
