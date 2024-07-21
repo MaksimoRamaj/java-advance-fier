@@ -1,6 +1,6 @@
 package org.example.oop.homeworks.inheritance;
 
-public class Figure {
+public abstract class Figure {
 
     private double length;
     private double width;
@@ -37,9 +37,8 @@ public class Figure {
         }
     }
 
-    public double area () {
-        return 0.0;
-    }
+    public abstract double area ();
+
 }
 
 
