@@ -1,6 +1,8 @@
 package org.example.oop.abstraction;
 
-public class Car extends Vehicle{
+import org.example.oop.interfaces.Printable;
+
+public class Car extends Vehicle {
 
     int noOfTires;
 
@@ -27,4 +29,5 @@ public class Car extends Vehicle{
     public void changeTire(){
         System.out.println("Duke ndryshuar gomen!");
     }
+
 }
