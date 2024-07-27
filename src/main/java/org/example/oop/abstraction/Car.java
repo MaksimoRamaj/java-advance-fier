@@ -1,7 +1,5 @@
 package org.example.oop.abstraction;
 
-import org.example.oop.interfaces.Printable;
-
 public class Car extends Vehicle {
 
     int noOfTires;
