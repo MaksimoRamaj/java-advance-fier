@@ -1,0 +1,11 @@
+Shembull:
+
+Box - > gjatesine, lartesine, gjeresine
+        5, 2, 3
+        7, 5, 4
+
+Shkruani nje metode qe te bej te mundur shkrimin e nje file ne formatin cs
+duke perdorur BufferWriter
+
+Dhe perdorni BufferReaders per te krijuar nje object nga nje
+file csv, per kete duhet te beni "parse" nje csv file

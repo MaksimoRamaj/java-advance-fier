@@ -1,0 +1,6 @@
+However, it is impossible to break the thread in a trivial way.
+The Thread class provides a stop method, but we shouldn't use it.
+At most, we can send a request to stop such a thread.
+The programmer, in the code of a separate thread, decides
+what to do with this fact. We send such a signal
+by calling the interrupt method, available on the Thread class instance.
