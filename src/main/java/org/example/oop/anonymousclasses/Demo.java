@@ -2,6 +2,8 @@ package org.example.oop.anonymousclasses;
 
 public class Demo {
     public static void main(String[] args) {
+         int x = 5;
+
         Greeting albGreeting = new AlbanianGreeting();
         Greeting alb2Greeting  = new AlbanianGreeting();
 
